@@ -84,9 +84,8 @@ public class View extends JFrame implements ActionListener {
         // manager. Add panelKeypad. Add a 10-pixel wide rigid area (using Box.createRigidArea()).
         // Add panelFunctSys.
         JPanel panelBottom = new JPanel();
-        panelBottom.setLayout(new BoxLayout(panelBottom,BoxLayout.LINE_AXIS));
+        panelBottom.setLayout(new BoxLayout(panelBottom, BoxLayout.LINE_AXIS));
         panelBottom.add(panelKeypad);
-        // TODO: box dimensions may not be correct
         panelBottom.add(Box.createRigidArea(new Dimension(10,0)));
         panelBottom.add(panelFunctSys);
 
@@ -111,7 +110,7 @@ public class View extends JFrame implements ActionListener {
         // Add some more vertical glue. Add panelTextField. Add panelBottom. Add some more vertical
         // glue.
         JPanel panelMain = new JPanel();
-        panelMain.setLayout(new BoxLayout(panelMain,BoxLayout.PAGE_AXIS));
+        panelMain.setLayout(new BoxLayout(panelMain, BoxLayout.PAGE_AXIS));
         panelMain.add(Box.createVerticalGlue());
         panelMain.add(panelLabel);
         panelMain.add(Box.createVerticalGlue());

@@ -1,8 +1,8 @@
 //**************************************************************************************************
-// CLASS: Insect (Insect.java)
+// CLASS: Mammal (Mammal.java)
 //
 // DESCRIPTION
-// This is the Insect class for the interface example in "Interfaces: Section 6".
+// This is the Mammal class for the interface example in "Interfaces: Section 6".
 //
 // AUTHOR
 // Kevin R. Burger (burgerk@asu.edu)
@@ -14,10 +14,10 @@
 //**************************************************************************************************
 
 /**
- * Insect is an abstract class that implements the MakesNoise interface. As an abstract class,
- * however, Insect is not required to provide an implementation of the makeNoise() method because
- * the expectation is that the subclasses of Insect will override makeNoise() and provide their
+ * Mammal is an abstract class that implements the MakesNoise interface. As an abstract class,
+ * however, Mammal is not required to provide an implementation of the makeNoise() method because
+ * the expectation is that the subclasses of Mammal will override makeNoise() and provide their
  * own specific implementation.
  */
-public abstract class Insect implements MakesNoise {
+public abstract class Mammal implements MakesNoise {
 }

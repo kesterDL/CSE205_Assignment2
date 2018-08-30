@@ -1,8 +1,6 @@
 public class Bee extends Insect {
-
     @Override
-    public void makeNoise(){
+    public void makeNoise() {
         System.out.println("Buzz");
     }
-
 }
